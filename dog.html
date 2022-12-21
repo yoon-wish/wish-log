@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="finalTest.css">
+<script src="finalTest.js" defer></script>
+	<title>WISH LOG - PUPPY</title>
+</head>
+<body>
+
+
+	<!-- 상단 타이틀 -->
+	<div class="shape1">
+		<h2> WISH LOG </h2>
+	</div>
+
+	<!-- 네비게이션 바 -->
+	<nav>
+		<ul>
+			<li><a href="prologue.html" target="_self">Prologue</a></li>
+			<li><a href="home.html" target="_self">Home</a></li>
+		</ul>
+	</nav>
+
+	<!-- 배경음악 재생 -->
+	<audio src="img/DoveLove.mp3" controls></audio>
+
+	<!-- 라디오버튼  -->
+	<div class="text4">
+    	<input type="radio" name="dogs" value="img/tory1.jpg" checked onclick="dogImage()">산타토리<br>
+    	<input type="radio" name="dogs" value="img/tory3.jpg" onclick="dogImage()">생일토리<br>
+    	<input type="radio" name="dogs" value="img/tory5.jpg"  onclick="dogImage()">유모차토리<br>
+    	<input type="radio" name="dogs" value="img/tory6.jpg"  onclick="dogImage()">해맑토리<br>
+    	<input type="radio" name="dogs" value="img/tory7.jpg"  onclick="dogImage()">아기토리<br>
+    	<input type="radio" name="dogs" value="img/tory8.jpg"  onclick="dogImage()">으르렁토리<br>
+    <br>
+    <br>
+    <br>
+	</div>
+
+	<!-- 라디오버튼 클릭 시 이미지 출력 -->
+	<div class="img1">
+		<img id="dogImage" src="img/tory1.jpg">
+	</div>
+
+	<br>
+	<br>
+	
+	<!-- 홈버튼 -->
+	<div class="button1">
+		<div id="box2"></div>
+		<br>
+		<button type="button" onclick="location.href='home.html'"">HOME</button>
+	</div>
+</body>
+</html>
